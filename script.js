@@ -4,9 +4,9 @@ window.addEventListener('DOMContentLoaded', function() {
 
 
 // TABS
-    let tab = document.querySelectorAll('.info-header-tab'),
-        info = document.querySelector('.info-header'),
-        tabContent = document.querySelectorAll('.info-tabcontent');
+    let tab = document.querySelectorAll('.info-header-tab'), //tabs
+        info = document.querySelector('.info-header'),   //wrapper tabs
+        tabContent = document.querySelectorAll('.info-tabcontent'); //content
 
     function hideTabContent(a) {
         for (let i = a; i < tabContent.length; i++) {
